@@ -1,0 +1,28 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.selector {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.gridContainer {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: 1px solid gray;
+}
+
+.squareDiv {
+    border: 0.1px solid rgb(185, 185, 185);
+}
